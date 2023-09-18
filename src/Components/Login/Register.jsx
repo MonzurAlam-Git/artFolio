@@ -31,7 +31,7 @@ const Register = () => {
   //     useSendEmailVerification(auth);
   return (
     <div className="hero min-h-screen bg-base-200">
-      <div className="hero-content flex-col lg:flex-row-reverse">
+      <div className="grid grid-cols-1 lg:flex flex-row-reverse justify-items-center content-center">
         {/* text part  */}
         {/* <div className="text-center lg:text-left">
           <h1 className="text-5xl font-bold">Login now!</h1>
@@ -42,8 +42,8 @@ const Register = () => {
           </p>
         </div> */}
         <img
-          className="w-full"
-          src="/src/assets/mobile-login-animate.svg"
+          className="w-56 lg:w-full"
+          src="https://i.ibb.co/R01DDMY/Mobile-login.gif"
           alt=""
         />
 

@@ -134,7 +134,7 @@ const Login = () => {
                   />
                   <p className="m-2 ">
                     {" "}
-                    New to SmileCraft Dentistry ?{" "}
+                    New to ArtFolio ?{" "}
                     <Link
                       className="my-1 text-primary font-bold"
                       to="/register"
